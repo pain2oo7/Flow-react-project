@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    font-family: Figtree;   
+}
+
+html {
+    scrollbar-color: #333333 #555555;
+    scrollbar-width:thin;
+}

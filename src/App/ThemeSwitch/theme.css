@@ -1,0 +1,30 @@
+.dark-theme {
+    background-color: #14181f;
+  }
+  
+  .light-theme {
+    background-color: white;
+  }
+.dark-theme a {
+    color: white;
+  }
+  
+  .light-theme a {
+    color: #14181f;
+  }
+
+.dark-theme line {
+  color: #14181f;
+  }
+  
+#line .light-theme{
+  width: 100%;
+  border: 1px solid #D9DEDD;
+  margin-top: 30px;
+}
+#line .light-theme{
+  width: 100%;
+  border: 1px solid #14181f;
+  margin-top: 30px;
+}
+

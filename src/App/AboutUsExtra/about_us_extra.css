@@ -1,0 +1,77 @@
+.AboutUsExtra{
+    width: 100%;
+    text-align: center;
+    margin-top: -51px;
+    background-image: url(../assets/Content\ pages/Lines.png);
+}
+
+
+.content_extra{
+    text-align: center;
+    width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h2_extra{
+    font-size: 62px;
+    font-weight: 400;
+    padding-top: 104px;
+
+}
+
+.p_extra{
+    font-size: 24px;
+    color: #1D1F1E;
+    font-weight: 600;
+    padding-top: 32px;
+}
+
+.btn_extra{
+    width: 136px;
+    height: 56px;
+    border: 1px solid #022C22;
+    border-radius: 25px;
+    color: #1D1F1E;
+    font-size: 18px;
+    background-color: #fff;
+    cursor: pointer;
+    margin-top: 40px;
+    transition: 0.3s;
+}
+
+.btn_extra:hover {
+    background-color: #022C22;
+    color: #fff;
+}
+.voidSpace{
+    height: 90px;
+}
+
+@media (max-width: 768px) {
+    .h2_extra{
+        font-size: 36px;
+        padding-top: 50px;
+    }
+    .content_extra{
+        text-align: center;
+        width: 300px;
+
+    }
+    .p_extra{
+        font-size: 17px;
+        font-weight: 600;
+        padding-top: 20px;
+    }
+    .btn_extra{
+        width: 100px;
+        height: 56px;
+        border: 1px solid #022C22;
+
+        margin-top: 10px;
+        transition: 0.3s;
+    }
+    
+}
+@media (max-width: 480px) {
+
+}

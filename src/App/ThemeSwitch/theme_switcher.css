@@ -1,0 +1,28 @@
+
+.theme-switcher-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .theme-switcher-button {
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .dark-theme .theme-switcher-button {
+    background: #555;
+    color: #fff;
+    border-color: #555;
+  }
+  
+  .light-theme .theme-switcher-button {
+    background: #ddd;
+    color: #000;
+    border-color: #ddd;
+  }
